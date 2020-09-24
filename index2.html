@@ -4,13 +4,22 @@
         <meta charset="UTF-8"/>
         <title>Car Peças | SA Paulo</title>
         <style>
-            .titulo, .logo, .imagens, .subtitulo, .preco, .valor, .rodape, h2{
+            .logo, .imagens, .subtitulo, .preco, .valor, .rodape, h2{
                 text-align: center;
             }
-            .titulo{
+            .logo img{
+                width: 175px;  /* Widht - Largura */ 
+                height: 175px; /* Height - Altura */
+                margin-top: -40px;
+            }
+            .promo{
                 background-color: #ff8c00;
-                font-size: 30px;
-                font-weight: bold;
+                font-size: 25px;
+                margin-top: 0px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                border: 1px solid;
+                font-style: italic;
             }
             .subtitulo{
                 font-size: 23px;
@@ -18,10 +27,6 @@
             }
             .texto{
                 text-align: justify;
-            }
-            .promo{
-                background-color: #ff8c00;
-                font-size: 23px;
             }
             .imagens img{
                 border-radius: 15px 50px;
@@ -52,10 +57,10 @@
         </style>
     </head>
     <body>
-        <div class="titulo">Car Peças</div>
         <div class="logo">
-            <img alt="Logo" title="Logo" src="imagens/LogoCarPeças.png" width="125px" height="125px"/> <!--Height / Altura - Widht / Largura-->
+             <img alt="Logo" title="Logo" src="imagens/LogoCarPeças.png"/> 
         </div>
+
         <h2 class="promo">Promoção Peças Automotivas</h2><br/>
         <p class="imagens">
             <img src="imagens/pecas.jpg" alt="Peças" align="right"/>
