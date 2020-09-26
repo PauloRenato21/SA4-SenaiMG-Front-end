@@ -7,13 +7,26 @@
             .imagens, .subtitulo, .preco, .valor, .rodape, h2{
                 text-align: center;
             }
+            /*Estilo do menu suspenso*/
             table tr td{
-                border: 1px solid;
+                /* border: 1px solid; */
                 text-align: center;
                 font-size: 18px;
                 width: 1000px;
                 height: 10px;
             }
+            table tr td a{
+                color: black;
+            }
+            a:link{ /* Pseudoclasse :link permite focar apenas os hiperlinks*/
+                text-decoration: none;
+            }
+            a:hover{ /*É um seletor que é usado para selecionar elementos quando você passa o mouse sobre eles.*/
+                color: #e88712;
+                text-decoration: underline;
+                font-weight: bold;
+            }
+            /*fim do estilo menu suspenso*/
             h2.promo{
                 background-color: #ff8c00;
                 font-size: 25px;
