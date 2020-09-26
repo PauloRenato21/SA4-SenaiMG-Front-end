@@ -4,16 +4,22 @@
         <meta charset="UTF-8"/>
         <title>Car Peças | SA Paulo</title>
         <style>
-            .imagens, .subtitulo, .preco, .valor, .rodape, h2{
+            .subtitulo, .preco, .valor, .rodape, h2{
                 text-align: center;
             }
             /*Estilo do menu suspenso*/
+            table{
+                margin-top: 30px;
+                margin-bottom: 30px;
+                outline: black 2px solid;
+            }
             table tr td{
                 /* border: 1px solid; */
                 text-align: center;
                 font-size: 18px;
                 width: 1000px;
                 height: 10px;
+                
             }
             table tr td a{
                 color: black;
@@ -27,27 +33,20 @@
                 font-weight: bold;
             }
             /*fim do estilo menu suspenso*/
-            h2.promo{
-                background-color: #ff8c00;
-                font-size: 25px;
-                margin-top: -4px;
-                padding-top: 10px;
-                padding-bottom: 10px;
-                border: 1px solid;
-                font-style: italic;
+            h2.FrasesImpacto{
+                text-align: left;
+                font-size: 30px;
+                color: #DD8500;
+                margin: 0px 0px 0px 100px;
+                padding-top: 80px;
+                padding-bottom: 80px;
             }
             h3.subtitulo{
                 font-size: 23px;
-                color: #e88712;
+                color: #DD8500;
             }
             p.texto{
                 text-align: justify;
-            }
-            p.imagens img{
-                border-radius: 15px;
-                margin: 10px;
-                height: 206px;
-                width: 310px;
             }
             p.preco{
                 font-size: 23px;
@@ -70,7 +69,7 @@
             }
             hr{
                 border-color: black;
-                border-width: 2px;
+                border-width: 1px;
             }
         </style>
     </head>
@@ -85,12 +84,11 @@
             </tr>
         </table>
 
-        <p class="imagens">
-            <img src="imagens/pecas.jpg" alt="Peças Automotimas" title="Peças" align="right"/>
-            <img src="imagens/pecas2.jpg" alt="Peças Automotimas" title="Peças"/>
-            <img src="imagens/pecas3.jpg" alt="Peças Automotimas" title="Peças" align="left"/>
-        </p>
-        <br/>
+        <hr>
+
+        <h2 class="FrasesImpacto">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Promoções<br/>Peças Automotivas
+        </h2>
         <hr/>
 
         <h3 class="subtitulo">Kit Embreagem - SACHS</h3>
