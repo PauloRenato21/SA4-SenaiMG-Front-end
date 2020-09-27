@@ -5,6 +5,32 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Promoções | Car Peças</title>
         <style>
+            table tr td{
+                text-align: center;
+            }
+            /*Estilo do menu suspenso*/
+            table{
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+            table tr td{
+                font-size: 18px;
+                width: 1000px;
+                height: 10px;
+            }
+            table tr td a{
+                color: black;
+            }
+            a:link{ /* Pseudoclasse :link permite focar apenas os hiperlinks*/
+                text-decoration: none;
+            }
+            a:hover{ /*É um seletor que é usado para selecionar elementos quando você passa o mouse sobre eles.*/
+                color: #e88712;
+                text-decoration: underline;
+                font-weight: bold;
+            }
+            /*fim do estilo menu suspenso*/
+            
             h3.subtitulo{
                 font-size: 23px;
                 color: #DD8500;
@@ -22,9 +48,32 @@
                 text-decoration: underline;
                 font-weight: bold;
             }
+            footer.rodape{
+                color: black;
+                background-color: #ff8c00;
+                font-size: 15px;
+                font-weight: bold;
+                border: 1px solid black;
+                padding-top: 1px;
+                padding-bottom: 1px;
+            }
+            hr{
+                border-color: black;
+                border-width: 1px;
+            }
         </style>
     </head>
     <body>
+        <table>
+            <tr>
+                <td><a href="index.html">Home</a></td>
+                <td><a href="Promocao.html" target="_black">Promoções</a></td>
+                <td><img src="imagens/LogoCarPeças.png"/></td>
+                <td><a href="#">Contato</a></td>
+                <td><a href="#">Sobre</a></td>
+            </tr>
+        </table>
+        <hr>
         <h3 class="subtitulo">Kit Embreagem - SACHS</h3>
         <p class="texto">Hoje em dia, a vida útil de cada peça da embreagem é praticamente idêntica, um aspecto considerado pelo kit de embreagem <b>SACHS</b>, que contém todos os componentes relevantes necessários para a troca da embreagem: platô, disco e mancal.
             O kit de embreagem <b>SACHS</b> inclui uma graxa especial para a montagem, garantindo funcionamento perfeito do equipamento e tornando a troca da embreagem segura, eficaz e rápida.
@@ -66,12 +115,16 @@
         <p class="valor">R$ 100,00</p>
         <br/>
         <hr/>
-
-        <h2>Sobre nos</h2>
-        <p class="texto">Empresa criada em 2001, com um proposito de oferecer preços encontra de peças automotivas no territótio Brasileiro.
-            Buscamos a Simplicidade e Eficiência no serviço, entrega e atendimento com evolução em todas as areas de atuação.
-        </p>
         <br/>
         <br/>
+        <footer class="rodape">
+            <table>
+                <tr>
+                    <td>Criador</td>
+                    <td>@CarPeças</td>
+                    <td>Endereço</td>
+                </tr>
+            </table>
+        </footer>
     </body>
 </html>
