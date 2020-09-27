@@ -7,6 +7,7 @@
             .rodape, table tr td{
                 text-align: center;
             }
+
             /*Estilo do menu suspenso*/
             table{
                 margin-top: 30px;
@@ -30,48 +31,45 @@
             }
             /*fim do estilo menu suspenso*/
 
-            /*Estilos das CTI - CALL TO ACTION - chamar a atenção */
-            h2.CTI{ 
-                text-align: left;
+            /*Estilo da 1 e 2 Tabela Frase-Foto*/
+
+            table#FraseFoto, table#TrocaOleo{ /*ID da tabela. Propriedades de tamanho dela*/
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+
+            td.Frase{ /*Classe da celula da tabela. Responsavel pela Frase*/
+                padding-left: 200px;
+            }
+
+            td.Frase h2, td.TrocaOleo h2{ /*Classe do conteudo da celula -P- com suas propriedades*/
                 font-size: 30px;
                 color: #DD8500;
-                margin: 0px 0px 0px 300px;
-                padding-top: 100px;
-                padding-bottom: 100px;
             }
-            h2.CTI img{
+            td.Foto{ /*Classe da celula da tabela. Responsavel pela Foto*/
+                padding-right: 200px;
+            }
+            td.Foto img, td.ImagemOleo img{ /*Classe do conteudo da celula -IMG- com suas propriedades*/
                 width: 310px;
                 height: 206px;
                 border-radius: 10px;
-                float: right;
-                margin-top: -100px;
-                margin-right: 300px;
+            }
+            td.ImagemOleo{
+                /* border: 1px solid */
+                padding-left: 120px;
+                margin: 0px;
+            }
+            td.TrocaOleo{
+                padding-right: 250px;
+            }
             
-            }
-            h2.CTI2{
-                text-align: right;
-                font-size: 30px;
-                color: #DD8500;
-                margin: 0px 300px 0px 0px;
-                padding-top: 100px;
-                padding-bottom: 100px;
-            }
-            h2.CTI2 img{
-                width: 310px;
-                height: 206px;
-                border-radius: 10px;
-                float: left;
-                margin-top: -100px;
-                margin-left: 300px;
-            }
-            /*Fim dos estilos da CTI*/
+            /*Fim do Estilo da 1 e 2 Tabela Frase-Foto*/
             footer.rodape{
                 color: black;
                 background-color: #ff8c00;
                 font-size: 15px;
                 font-weight: bold;
                 border: 1px solid black;
-                /* margin-top: 10px; */
                 padding-top: 1px;
                 padding-bottom: 1px;
             }
@@ -85,25 +83,31 @@
         <table>
             <tr>
                 <td><a href="#">Home</a></td>
-                <td><a href="Promocao.html" target="_black">Promoções</a></td>
+                <td><a href="Promocao.html">Promoções</a></td>
                 <td><img src="imagens/LogoCarPeças.png"/></td>
                 <td><a href="#">Contato</a></td>
                 <td><a href="#">Sobre</a></td>
             </tr>
         </table>
 
-        <hr>
-
-        <h2 class="CTI">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Promoções<br/>Peças Automotivas
-            <img src="imagens/pecas.jpg" alt="Peças Automotivas" title="Peças Automotivas"> 
-        </h2>
         <hr/>
 
-        <h2 class="CTI2">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Troca de<br/>Óleo Grátis
-            <img src="imagens/troca-oleo.jpg" alt="Peças Automotivas" title="Troca de Óleo"> 
-        </h2>
+        <table id="FraseFoto">
+            <tr>
+                <td class="Frase"><h2>Promoções <br> Peças Automotivas</h2></td>
+                <td class="Foto"><img src="imagens/pecas.jpg" alt="Peças Automotivas" title="Peças Automotivas"></td>
+            </tr>
+        </table>
+
+        <hr/>
+        
+        <table id="TrocaOleo">
+            <tr>
+                <td class="ImagemOleo"><img src="imagens/troca-oleo.jpg" alt="Troca de Óleo" title="Troca de Óleo Grátis"></td>
+                <td class="TrocaOleo"><h2>Troca de <br> Óleo Grátis</h2></td>
+            </tr>
+        </table>
+
         <br/>
         <br/>
 
