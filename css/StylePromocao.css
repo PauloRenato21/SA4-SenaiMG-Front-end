@@ -42,10 +42,15 @@ h3.subtitulo{
     color: #DD8500;
 }
 
-div p.TextoEmbreagem{
+div p.TextoEmbreagem{ /*alinhamento do texto do Kit Embreagem, largura que o texto ocupa, e a margem do texto a esqueda*/
     text-align: justify;
     width: 700px;
     margin-left: 100px;
+}
+
+div p.TextoCilindro{ /*alinhamento do texto do Cilindro de Roda, e a margem do texto a direita*/
+    text-align: justify;
+    margin-right: 100px;
 }
 
 div.preco p{
