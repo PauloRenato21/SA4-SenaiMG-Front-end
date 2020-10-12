@@ -7,13 +7,14 @@
     padding: 0px;
 }
 
-.rodape, table tr td{ /*Alinhar todos esses elementos agrupados ao centro*/
+    /*Alinhar todos esses elementos agrupados ao centro*/
+.rodape, table tr td{ 
     text-align: center;
 }
 
-/*Estilo do menu suspenso*/
+    /*Estilo do menu suspenso*/
 table.cabecalho{
-    margin-top: 30px;
+    margin-top: 5px;
 }
 
 table tr td{
@@ -26,41 +27,47 @@ table tr td a{
     color: black;
 }
 
-a:link{ /* Pseudoclasse :link permite focar apenas os hiperlinks*/
+    /* Pseudoclasse :link permite focar apenas os hiperlinks*/
+a:link{ 
     text-decoration: none;
 }
 
-a:hover{ /*É um seletor que é usado para selecionar elementos quando você passa o mouse sobre eles.*/
+    /*É um seletor que é usado para selecionar elementos quando você passa o mouse sobre eles.*/
+a:hover{ 
     color: #e88712;
     text-decoration: underline;
     font-weight: bold;
 }
-/*fim do estilo menu suspenso*/
+    /*fim do estilo menu suspenso*/
 
 
-/*Estilo da 1 e 2 Tabela Frase-Foto*/
+    /*Estilo da 1 e 2 Tabela Frase-Foto*/
 
-table#Promocao, table#TrocaOleo{ /*ID da tabela. Propriedades de tamanho dela*/
+table#Promocao, table#TrocaOleo{ 
     padding-top: 20px;
     padding-bottom: 20px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
-td.Frase{ /*Classe da celula da tabela. Responsavel pela Frase*/
+    /*Classe da celula da tabela. Responsavel pela Frase*/
+td.Frase{ 
     padding-left: 200px;
 }
 
-td.Frase h2, td.TrocaOleo h2{ /*Classe do conteudo da celula -P- com suas propriedades*/
+    /*Classe do conteudo da celula -P- com suas propriedades*/
+td.Frase h2, td.TrocaOleo h2{ 
     font-size: 30px;
     color: #DD8500;
 }
 
-td.Foto{ /*Classe da celula da tabela. Responsavel pela Foto*/
+    /*Classe da celula da tabela. Responsavel pela Foto*/
+td.Foto{ 
     padding-right: 200px;
 }
 
-td.Foto img, td.ImagemOleo img{ /*Classe do conteudo da celula -IMG- com suas propriedades*/
+    /*Classe do conteudo da celula -IMG- com suas propriedades*/
+td.Foto img, td.ImagemOleo img{ 
     width: 310px;
     height: 206px;
     border-radius: 10px;
@@ -75,8 +82,8 @@ td.ImagemOleo{
 td.TrocaOleo{
     padding-right: 250px;
 }
+    /*Fim do Estilo da 1 e 2 Tabela Frase-Foto*/
 
-/*Fim do Estilo da 1 e 2 Tabela Frase-Foto*/
 table.rodape{
     height: 80px;
     color: black;
