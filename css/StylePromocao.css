@@ -1,5 +1,11 @@
 @charset "utf-8";
 
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
 h2.promo, div.preco, h3, table tr td{
     text-align: center;
 }
