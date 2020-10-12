@@ -12,7 +12,7 @@ h2.promo, div.preco, h3, table tr td{
 
 /*Estilo do menu suspenso*/
 table.cabecalho{
-    margin-top: 30px;
+    margin-top: 5px;
 }
 
 table tr td{
@@ -36,6 +36,7 @@ a:hover{ /*É um seletor que é usado para selecionar elementos quando você pas
 }
 /*fim do estilo menu suspenso*/
 
+
 h2.promo{
     background-color: #ff8c00;
     font-size: 25px;
@@ -43,35 +44,74 @@ h2.promo{
     padding-bottom: 10px;
 }
 
-h3.subtitulo{
+    /*Estilo 1 div's*/
+div#ConteudoEmbreagem{
+    overflow: hidden;
+}
+
+div#ConteudoEmbreagem div h3{
     font-size: 25px;
     color: #DD8500;
 }
 
-div p.TextoEmbreagem{ /*alinhamento do texto do Kit Embreagem, largura que o texto ocupa, e a margem do texto a esqueda*/
+div.TextoEmbreagem{
     text-align: justify;
     width: 700px;
-    margin-left: 100px;
+    margin: 30px 0px 0px 100px;
+    float: left;
 }
 
-div p.TextoCilindro{ /*alinhamento do texto do Cilindro de Roda, e a margem do texto a direita*/
-    text-align: justify;
-    margin-right: 100px;
+div.EmbreagemImagem{
+    margin: 0px 100px 0px 0px;
+    float: right;
 }
 
-div p.TextoDisco{ /*alinhamento do texto Disco de freio, margem da direita e esquerda sobre o texto, tamanho da letra*/
+    /*--------------*/
+
+
+    /*Estilo 2 div's*/
+div#ConteudoCilindro{
+    overflow: hidden;
+}
+
+div#ConteudoCilindro h3{
+    font-size: 25px;
+    color: #DD8500;
+}
+
+div#ConteudoCilindro div.CilindroImagem{
+    margin-left: 200px;
+    float: left;
+}
+
+div#ConteudoCilindro div.TextoCilindro{
     text-align: justify;
-    margin-right: 50px;
-    margin-left: 50px;
+    width: 500px;
+    margin: 110px 140px 0px 0px;
+    float: right;
+}
+    /*--------------*/
+
+    /*Estilo 3 div's*/
+div#ConteudoDisco h3{
+    font-size: 25px;
+    color: #DD8500;
+}
+
+div#ConteudoDisco div.TextoDisco{
+    text-align: justify;
     font-size: 18px;
+    margin: 30px 130px 0px 130px;
 }
 
-div.ConteudoDisco p{ /*Posicionamento da imagem do Disco de Freio*/
-    text-align: center;
+div#ConteudoDisco div.ImagemDisco{
+    margin: 40px 450px 0px 450px;
 }
+    /*--------------*/
 
-
-div.preco p{ /**/
+    /*Estilo Preços/Botões*/
+div.preco p{
+    clear: both;
     color: red;
     font-size: 25px;
     font-weight: bold;
@@ -79,9 +119,18 @@ div.preco p{ /**/
 
 div.preco button{
     font-size: 18px;
+    padding: 2px;
     cursor: pointer;
+    outline: none;
+    border-radius: 2px;
     border: 1px solid;
 }
+
+div.preco button:hover{
+    background-color: #DD8500;
+    color: black;
+}
+    /*---------------*/
 
 footer.rodape{
     color: black;
@@ -94,6 +143,5 @@ footer.rodape{
 }
 
 hr{
-    border-color: black;
-    border-width: 1px;
+    border: 1px solid black;
 }
