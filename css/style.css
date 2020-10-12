@@ -1,5 +1,12 @@
 @charset "utf-8";
 
+    /*Reset config padrão*/
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
 .rodape, table tr td{ /*Alinhar todos esses elementos agrupados ao centro*/
     text-align: center;
 }
