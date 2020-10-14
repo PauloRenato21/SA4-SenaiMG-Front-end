@@ -7,7 +7,7 @@
     padding: 0px;
 }
 
-table tr td{
+table.cabecalho tr td{
     text-align: center;
 }
 
@@ -16,7 +16,7 @@ table.cabecalho{
     margin-top: 5px;
 }
 
-table tr td{
+table.cabecalho tr td{
     font-size: 18px;
     width: 1000px;
     height: 10px;
@@ -40,3 +40,26 @@ a:hover{ /*É um seletor que é usado para selecionar elementos quando você pas
 hr{
     border: 1px solid black;
 }
+
+    /*Estilo form*/
+div{
+    width: 30%;
+}
+
+div form table tr td label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 100%;
+}
+
+div form table tr td input{
+    border: 1px solid black;
+    width: 370px;
+    outline: none;
+}
+
+textarea{
+    border: 1px solid;
+    outline: none;
+    resize: none;
+}
+    /*----------*/
