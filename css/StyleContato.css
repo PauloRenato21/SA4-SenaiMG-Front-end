@@ -6,3 +6,37 @@
     margin: 0px;
     padding: 0px;
 }
+
+table tr td{
+    text-align: center;
+}
+
+/*Estilo do menu suspenso*/
+table.cabecalho{
+    margin-top: 5px;
+}
+
+table tr td{
+    font-size: 18px;
+    width: 1000px;
+    height: 10px;
+}
+
+table tr td a{
+    color: black;
+}
+
+a:link{ /* Pseudoclasse :link permite focar apenas os hiperlinks*/
+    text-decoration: none;
+}
+
+a:hover{ /*É um seletor que é usado para selecionar elementos quando você passa o mouse sobre eles.*/
+    color: #e88712;
+    text-decoration: underline;
+    font-weight: bold;
+}
+/*fim do estilo menu suspenso*/
+
+hr{
+    border: 1px solid black;
+}
