@@ -6,6 +6,7 @@
     margin: 0px;
     padding: 0px;
 }
+    /*===================*/
 
 table.cabecalho tr td{
     text-align: center;
@@ -41,17 +42,43 @@ hr{
     border: 1px solid black;
 }
 
-    /*Estilo form*/
-div{
-    width: 30%;
+h3{
+    text-align: center;
+    font-size: 160%;
+    background-color:  #ff8c00;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-div form table tr td label{
+    
+    /*Out box*/
+fieldset, legend{
+    border: 1px solid black;
+}
+
+fieldset{
+    padding: 10px;
+}
+
+fieldset legend{
+    padding: 3px;
+    
+}
+    /*======*/
+
+
+    /*Estilo form*/
+div.Formulario{
+    width: 30%;
+    margin-left: 35%;
+}
+
+div.Formulario form table tr td label{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 100%;
 }
 
-div form table tr td input{
+div.Formulario form table tr td input{
     border: 1px solid black;
     width: 370px;
     outline: none;
@@ -62,4 +89,44 @@ textarea{
     outline: none;
     resize: none;
 }
-    /*----------*/
+    /*==========*/
+
+    /*Estilo Enviar, Apagar*/
+input.enviar, input.apagar{
+    border: 1px solid black;
+    padding: 3px;
+    cursor: pointer;
+    outline: none;
+}
+
+input.enviar{
+    margin-left: 30%;
+}
+
+input.apagar{
+    margin-left: 3%;
+}
+
+input.enviar:hover, input.apagar:hover{
+    font-weight: bolder;
+}
+    /*=====================*/
+
+    /*Rodapé*/
+footer.rodape{
+    text-align: center;
+    color: black;
+    background-color: #ff8c00;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+footer.rodape table tr td{
+    font-size: 18px;
+    width: 1000px;
+    height: 10px;
+}
+    /*=======*/
