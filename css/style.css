@@ -55,7 +55,7 @@ div.Frase h2{
     float: left;
 }
 
-div.Frase h2:hover{
+div.Frase h2:hover, div.FraseTrocaOleo h2:hover{
     text-decoration: underline;
 }
 
