@@ -44,6 +44,10 @@ div.frame{
     display: block;
 }
 
+div.carrosel h2{
+    font-family: 'Eczar', serif;
+}
+
 div.tela-1, div.tela-2, div.tela-3, div.tela-4{
     font-size: 120%;
     text-align: center;
