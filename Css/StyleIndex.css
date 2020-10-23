@@ -44,12 +44,9 @@ div.frame{
     display: block;
 }
 
-div.carrosel h2{
-    font-family: 'Eczar', serif;
-}
-
 div.tela-1, div.tela-2, div.tela-3, div.tela-4{
     font-size: 120%;
+    font-family: 'Eczar', serif;
     text-align: center;
 }
 
@@ -63,3 +60,53 @@ a.avancar{
     margin: 7% 11% 0% 0%;
 }
 
+aside{
+    float: left;
+    text-align: center;
+    border-radius: 5%;
+    width: 10%;
+    height: 270px;
+    margin-left: 1%;
+    position: sticky;
+    top: 0px;
+}
+
+section{
+    overflow: hidden;
+}
+
+section.bolos h3{
+    font-size: 160%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+section.bolos div.quadro1{
+    float: left;
+    text-align: center;
+    border: 1px solid;
+    width: 49%;
+}
+
+section.bolos div.quadro2{
+    float: right;
+    border: 1px solid;
+    width: 49%;
+    text-align: center;
+}
+
+section.bolos div.quadro3, div.quadro5{
+    float: left;
+    text-align: center;
+    border: 1px solid;
+    margin-top: 1%;
+    width: 49%;
+}
+
+section.bolos div.quadro4, div.quadro6{
+    float: right;
+    border: 1px solid;
+    width: 49%;
+    margin-top: 1%;
+    text-align: center;
+}
