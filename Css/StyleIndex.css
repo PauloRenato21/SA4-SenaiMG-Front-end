@@ -1,14 +1,18 @@
 @charset "utf-8";
 
+/*Reset Padrao Browser*/
 *{
     margin: 0px;
     border: 0px;
     padding: 0px;
 }
+/*===================*/
 
+/*Cor Fundo*/
 body{
     background-color: #f8e6e5;
 }
+/*=========*/
 
 header div.logo{
     width: 100%;
@@ -75,38 +79,45 @@ section{
     overflow: hidden;
 }
 
-section.bolos h3{
+section#bolos h3, section#tortas h3{
     font-size: 160%;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
-section.bolos div.quadro1{
-    float: left;
-    text-align: center;
-    border: 1px solid;
-    width: 49%;
+section#tortas h3{
+    margin-left: 10%;
 }
 
-section.bolos div.quadro2{
+section#bolos div.quadro1, section#bolos div.quadro3{
+    float: left;
+    border: 1px solid;
+    width: 49%;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+section#bolos div.quadro2, section#bolos div.quadro4{
     float: right;
     border: 1px solid;
     width: 49%;
     text-align: center;
+    margin-bottom: 1%;
 }
 
-section.bolos div.quadro3, div.quadro5{
+section#tortas div.quadro1, section#tortas div.quadro3{
     float: left;
     text-align: center;
     border: 1px solid;
-    margin-top: 1%;
-    width: 49%;
+    width: 43%;
+    margin-left: 11%;
+    margin-bottom: 1%;
 }
 
-section.bolos div.quadro4, div.quadro6{
+section#tortas div.quadro2, section#tortas div.quadro4{
     float: right;
-    border: 1px solid;
-    width: 49%;
-    margin-top: 1%;
     text-align: center;
+    border: 1px solid;
+    width: 43%;
+    margin-bottom: 1%;
 }
