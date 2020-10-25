@@ -14,11 +14,14 @@ body{
 }
 /*=========*/
 
+/*Div Logo*/
 header div.logo{
     width: 100%;
     text-align: center;
 }
+/*========*/
 
+/*Menu superior*/
 nav table{
     width: 100%;
     border-top: 1px solid;
@@ -41,7 +44,9 @@ nav table tr td a{
 nav table tr td a:hover{
     color: rgb(250, 88, 115);
 }
+/*===============*/
 
+/*Carrosel*/
 div.carrosel{
     width: auto;
     height: 260px;
@@ -70,7 +75,9 @@ a.avancar{
     float: right;
     margin: 7% 11% 0% 0%;
 }
+/*==========*/
 
+/*Menu Lateral*/
 aside{
     float: left;
     text-align: center;
@@ -85,11 +92,15 @@ aside p{
     font-family: 'Quicksand', sans-serif;
     font-size: 120%;
 }
+/*=============*/
 
+/*Divs Promoções Tamanho dos Pais*/
 section#bolos, section#tortas, section#doces{
     overflow: hidden;
 }
+/*===================*/
 
+/*Divs Promoções*/
 section#bolos, section#tortas, section#doces{
     margin-left: 13%;
 }
@@ -150,7 +161,9 @@ section#doces div.quadro2, section#doces div.quadro4{
     text-align: center;
     margin-bottom: 1%;
 }
+/*=================*/
 
+/*Rodapé*/
 footer{
     height: 40px;
     border-top: 1px solid;
@@ -163,3 +176,4 @@ footer p{
     font-size: 120%;
     margin-top: 10px;
 }
+/*=======*/
