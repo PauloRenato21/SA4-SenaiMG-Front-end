@@ -49,65 +49,38 @@
         <br/>
         <!--=======-->
 
-        <!--Carrosel-->
+        <!--Carrosel no Boodstrap-->
         <nav>
-            <div class="carrosel">
-
-                <div class="frame" id="frame-1">
-
-                    <a class="voltar" href="#frame-4"><img src="Imagens/Carrosel/seta_esquerda.png" alt="seta esquerda" title="Voltar"/></a>
-                    <a class="avancar" href="#frame-2"><img src="Imagens/Carrosel/seta_direita.png" alt="seta direita" title="Avançar"/></a>
-
-                    <div class="tela-1">
-                        
+            <div class="carousel slide" id="carrosel" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
                         <h2>Bolo Oreo</h2>
                         <img src="Imagens/Carrosel/bolo-oreo.png" alt="Top Bolos" title="Bolo Oreo Top Bolos"/>
-                       
                     </div>
-                </div>
-
-                <div class="frame" id="frame-2">
-                    
-                    <a class="voltar" href="#frame-1"><img src="Imagens/Carrosel/seta_esquerda.png" alt="seta esquerda" title="Voltar"/></a>
-                    <a class="avancar" href="#frame-3"><img src="Imagens/Carrosel/seta_direita.png" alt="seta direita" title="Avançar"/></a>
-
-                    <div class="tela-2">
-                        
+        
+                    <div class="carousel-item">
                         <h2>Cupcake Tart queques</h2>
                         <img src="Imagens/Carrosel/cupcake.png" alt="Top Bolos" title="Cupcake Top Bolos"/>
                     </div>
-
-                </div>
-
-                <div class="frame" id="frame-3">
-
-                    <a class="voltar" href="#frame-2"><img src="Imagens/Carrosel/seta_esquerda.png" alt="seta esquerda" title="Voltar"/></a>
-                    <a class="avancar" href="#frame-4"><img src="Imagens/Carrosel/seta_direita.png" alt="seta direita" title="Avançar"/></a>
-
-                    <div class="tela-3">
-
+        
+                    <div class="carousel-item">
                         <h2>Torta Floresta Negra</h2>
                         <img src="Imagens/Carrosel/torta.png" alt="Top Bolos" title="Torta Top Bolos"/>
                     </div>
-
-                </div>
-
-                <div class="frame" id="frame-4">
-
-                    <a class="voltar" href="#frame-3"><img src="Imagens/Carrosel/seta_esquerda.png" alt="seta esquerda" title="Voltar"/></a>
-                    <a class="avancar" href="#frame-1"><img src="Imagens/Carrosel/seta_direita.png" alt="seta direita" title="Avançar"/></a>
-
-                    <div class="tela-4">
-
+        
+                    <div class="carousel-item">
                         <h2>Trufas Gourmet</h2>
-                        <img src="Imagens/Carrosel/trufas.png" alt="Top Bolos" title="Trufa Top Bolos"/>
+                        <img src="Imagens/Carrosel/trufas.png" alt="Top Bolos" title="Trufa Top Bolos"/>    
                     </div>
-
+                    
+                    <a href="#carrosel" class="carousel-control-prev" data-slide="prev">
+                        <img src="Imagens/Carrosel/seta_esquerda.png" alt="Seta para esquerda" title="Voltar"/>
+                    </a>
+        
+                    <a href="#carrosel" class="carousel-control-next" data-slide="next">
+                        <img src="Imagens/Carrosel/seta_direita.png" alt="Seta para direita" title="Avançar"/>
+                    </a>
                 </div>
-
-                <!-- <script>
-                    window.location = "#frame-1"; // Qual frame ira aparecer primeiro na pagina
-                </script> -->
             </div>
         </nav>
 
@@ -276,7 +249,11 @@
         <footer>
             <p>@2020 - Top Bolos®</p>
         </footer>
-        <!--======-->
+
+        <!-- Responsável pela movimentação do Carrosel -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </body>
 </html>
         
