@@ -19,6 +19,13 @@ header div.logo{
     width: 100%;
     text-align: center;
 }
+header div.logo img#logo{
+    margin-left: 80px;
+}
+img.cesta{
+    float: right;
+    margin-right: 20px;
+}
 /*========*/
 
 /*Menu superior*/
