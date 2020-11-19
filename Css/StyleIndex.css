@@ -23,8 +23,13 @@ header div.logo img#logo{
     margin-left: 80px;
 }
 img.cesta{
+    filter: grayscale(100%);
     float: right;
     margin-right: 20px;
+}
+img.cesta:hover{
+    filter: none;
+    cursor: pointer;
 }
 /*========*/
 
