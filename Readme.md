@@ -1,5 +1,4 @@
 <h1>SA - Situação de Aprendizagem - Parte 04</h1>
-<hr>
 
 <h3>Continuação da SA Parte 03</h3>
 
