@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="stylesheet" type="text/css" href="bootstrap-4.5.3-dist/css/bootstrap.css"/>
         <link rel="stylesheet" type="text/css" href="Css/StyleIndex.css"/>
-        <link rel="iconlogo" href="Imagens/Top_Bolos.png" type="image/png"/>
+        <link rel="shortcut icon" href="Imagens/Top_Bolos.png" type="image/png"/>
         <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@600&display=swap" rel="stylesheet"/>
         <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet"/>
         <link href="https://fonts.googleapis.com/css2?family=Domine:wght@700&display=swap" rel="stylesheet"/>
@@ -55,22 +55,101 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <h2>Bolo Oreo</h2>
-                        <img src="Imagens/Carrosel/bolo-oreo.png" alt="Top Bolos" title="Bolo Oreo Top Bolos"/>
-                    </div>
-        
+                        <img src="Imagens/Carrosel/bolo-oreo.png" alt="Top Bolos" title="Bolo Oreo Top Bolos" data-toggle="modal" data-target="#primeiroModal"/>
+
+                        <!-- Primeiro Modal Carrosel-->
+                        <div class="modal fade" id="primeiroModal" role="dialog">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+
+                                    <div class="modal-header">
+                                        <h3>Bolo Oreo</h3>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+
+                                    <div class="modal-body">
+                                        <img src="Imagens/Carrosel/bolo-oreo.png" alt="Top Bolos" title="Bolo Oreo Top Bolos"/>
+                                        <button>R$: 20,00</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>    
                     <div class="carousel-item">
                         <h2>Cupcake Tart queques</h2>
-                        <img src="Imagens/Carrosel/cupcake.png" alt="Top Bolos" title="Cupcake Top Bolos"/>
+                        <img src="Imagens/Carrosel/cupcake.png" alt="Top Bolos" title="Cupcake Top Bolos" data-toggle="modal" data-target="#segundoModal"/>
+
+                        <!-- Segundo Modal Carrosel-->
+                        <div class="modal fade" id="segundoModal" role="dialog">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+
+                                    <div class="modal-header">
+                                        <h3>Cupcake Tart queques</h3>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+
+                                    <div class="modal-body">
+                                        <img src="Imagens/Carrosel/cupcake.png" alt="Top Bolos" title="Cupcake Top Bolos"/>
+                                        <button>R$: 20,00</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
         
                     <div class="carousel-item">
                         <h2>Torta Floresta Negra</h2>
-                        <img src="Imagens/Carrosel/torta.png" alt="Top Bolos" title="Torta Top Bolos"/>
+                        <img src="Imagens/Carrosel/torta.png" alt="Top Bolos" title="Torta Top Bolos" data-toggle="modal" data-target="#terceiroModal"/>
+
+                        <!-- Terceiro Modal Carrosel-->
+                        <div class="modal fade" id="terceiroModal" role="dialog">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+
+                                    <div class="modal-header">
+                                        <h3>Torta Floresta Negra</h3>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+
+                                    <div class="modal-body">
+                                        <img src="Imagens/Carrosel/torta.png" alt="Top Bolos" title="Torta Floresta Negra"/>
+                                        <button>R$: 20,00</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
         
                     <div class="carousel-item">
                         <h2>Trufas Gourmet</h2>
-                        <img src="Imagens/Carrosel/trufas.png" alt="Top Bolos" title="Trufa Top Bolos"/>    
+                        <img src="Imagens/Carrosel/trufas.png" alt="Top Bolos" title="Trufa Top Bolos" data-toggle="modal" data-target="#quartoModal"/>
+
+                        <!-- Quarto Modal Carrosel-->
+                        <div class="modal fade" id="quartoModal" role="dialog">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+
+                                    <div class="modal-header">
+                                        <h3>Trufas Gourmet</h3>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+
+                                    <div class="modal-body">
+                                        <img src="Imagens/Carrosel/trufas.png" alt="Top Bolos" title="Trufas Gourmet"/>
+                                        <button>R$: 20,00</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
                     
                     <a href="#carrosel" class="carousel-control-prev" data-slide="prev">
@@ -121,9 +200,7 @@
                 <div class="nome">
                     <p>Bolo com Morango</p>
                 </div>
-                <div class="comprar">
-                    <p>R$: 20,00</p>
-                </div>
+                <button>R$: 20,00</button>
             </div>
 
             <div class="quadro2">
@@ -132,9 +209,7 @@
                 <div class="nome">
                     <p>Bolo Surpresa Kit Kat</p>
                 </div>
-                <div class="comprar">
-                    <p>R$: 20,00</p>
-                </div>
+                <button>R$: 20,00</button>
             </div>
 
             <div class="quadro3">
@@ -143,9 +218,7 @@
                 <div class="nome">
                     <p>Bolo de Aniversário</p>
                 </div>
-                <div class="comprar">
-                    <p>R$: 20,00</p>
-                </div>
+                <button>R$: 20,00</button>
             </div>
 
             <div class="quadro4">
@@ -154,9 +227,7 @@
                 <div class="nome">
                     <p>Bolo Kit Kat de Brigadeiro</p>
                 </div>
-                <div class="comprar">
-                    <p>R$: 20,00</p>
-                </div>
+                <button>R$: 20,00</button>
             </div>
 
         </section> 
@@ -177,9 +248,7 @@
                 <div class="nome">
                     <p>Torta de Chocolate</p>
                 </div>
-                <div class="comprar">
-                    <p>R$: 20,00</p>
-                </div>
+                <button>R$: 20,00</button>
             </div>
 
             <div class="quadro2">
@@ -188,9 +257,7 @@
                 <div class="nome">
                     <p>Torta de Cereja</p>
                 </div>
-                <div class="comprar">
-                    <p>R$: 20,00</p>
-                </div>
+                <button>R$: 20,00</button>
             </div>
 
             <div class="quadro3">
@@ -199,9 +266,7 @@
                 <div class="nome">
                     <p>Torta de Amêndoa</p>
                 </div>
-                <div class="comprar">
-                    <p>R$: 20,00</p>
-                </div>
+                <button>R$: 20,00</button>
             </div>
 
             <div class="quadro4">
@@ -210,9 +275,7 @@
                 <div class="nome">
                     <p>Torta com Glacê</p>
                 </div>
-                <div class="comprar">
-                    <p>R$: 20,00</p>
-                </div>
+                <button>R$: 20,00</button>
             </div>
 
         </section>
@@ -233,9 +296,7 @@
                 <div class="nome">
                     <p>Donuts com cobertura Morango</p>
                 </div>
-                <div class="comprar">
-                    <p>R$: 20,00</p>
-                </div>
+                <button>R$: 20,00</button>
             </div>
 
             <div class="quadro2">
@@ -244,9 +305,7 @@
                 <div class="nome">
                     <p>Muffins pedaços Chocolate</p>
                 </div>
-                <div class="comprar">
-                    <p>R$: 20,00</p>
-                </div>
+                <button>R$: 20,00</button>
             </div>
 
             <div class="quadro3">
@@ -255,9 +314,7 @@
                 <div class="nome">
                     <p>Pudim Leite Condensado</p>
                 </div>
-                <div class="comprar">
-                    <p>R$: 20,00</p>
-                </div>
+                <button>R$: 20,00</button>
             </div>
 
             <div class="quadro4">
@@ -266,9 +323,7 @@
                 <div class="nome">
                     <p>Hambúrguer de Siri Colorido</p>
                 </div>
-                <div class="comprar">
-                    <p>R$: 20,00</p>
-                </div>
+                <button>R$: 20,00</button>
             </div>
         </section>
 
