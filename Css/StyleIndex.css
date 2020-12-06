@@ -65,6 +65,28 @@ nav table tr td a:hover{
     font-family: 'Eczar', serif;
 }
 
+/*Modal Carrosel*/
+div.modal-content{ /*Cor de fundo Modal*/
+    background-color: #f8e6e5;
+}
+
+div.modal-header h3{ /*Cabeçalho do Modal - Titulo*/
+    font-family: 'Domine', serif;
+}
+
+div.modal-body img{ /*Corpo do Modal - Imagem no Modal*/
+    float: left;
+    border-right: 2px ridge;
+}
+
+div.modal-body button{ /*Corpo do Modal - Botão no Modal*/
+    font-family: 'Domine', serif;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 15%;
+}
+
 /*Menu Lateral*/
 aside#menuLateral{
     float: left;
@@ -113,19 +135,20 @@ section div.nome p{
     margin: 5% 0%;
 }
 
-section#bolos div.comprar, section#tortas div.comprar, section#doces div.comprar{
+section#bolos button, section#tortas button, section#doces button{
     width: 70%;
-    margin-left: 15%;
     border: 2px solid black;
     border-radius: 10px;
-    margin-bottom: 5%;
-}
-
-section#bolos div.comprar p, section#tortas div.comprar p, section#doces div.comprar p{
+    outline: none;
     text-align: center;
     font-family: 'Domine', serif;
     font-size: 120%;
-    margin: 5% 0%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+section#bolos button:hover, section#tortas button:hover, section#doces button:hover{
+   background-color: #fccccb;
 }
 
 section#bolos div.quadro1, section#bolos div.quadro3, section#tortas div.quadro1, section#tortas div.quadro3, section#doces div.quadro1, section#doces div.quadro3{
