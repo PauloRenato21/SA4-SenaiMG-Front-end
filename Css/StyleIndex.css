@@ -170,8 +170,8 @@ section#bolos div.quadro2, section#bolos div.quadro4, section#tortas div.quadro2
 /*Rodapé*/
 footer{
     height: auto;
+    padding: 10px;
     border-top: 1px solid;
-    border-bottom: 1px solid;
 }
 
 footer p{
